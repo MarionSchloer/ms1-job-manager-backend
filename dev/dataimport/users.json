@@ -3,28 +3,28 @@
     "username": "anonymousUser",
     "firstName": "Anonymous",
     "lastName": "User",
-    "hash": "$2b$10$DRU5fw56UVnABrkxT6XOpOs7qLzp9JR4TYXBfKgcckHX0Ff3aL1Eq",
+    "hash": "$2b$10$gO6HX.CIAXkt.p3f8Lz.buodUCwQrkwGPyJ2yfb4xdz9LVwAlq9iC",
     "accessGroups": ["loggedOutUsers"]
   },
   {
     "username": "edward",
     "firstName": "Edward",
     "lastName": "Tanguay",
-    "hash": "$2b$10$HlzV1/H3FPK9TCzIiajYSOLXW0eyDoeUJTVWbPSooe7wl5X4HHuK2",
+    "hash": "$2b$10$pInpYPoKE1IG8CN69EsfFO7v8/CMq.f81eHQuUK3GE.ss7/AbG7RW",
     "accessGroups": ["loggedInUsers", "administrators"]
   },
   {
     "username": "jason",
     "firstName": "Jason",
     "lastName": "Jenkins",
-    "hash": "$2b$10$ZVnuMNHQpOYtpIsApKfT4ONvYN0.up55gQxagJTsU.ukwMCw7bhSy",
+    "hash": "$2b$10$GqowH35wE9YknzctnBjDzOlSnBvboZvXxT8u76NibkdhrO2cbhDLe",
     "accessGroups": ["loggedInUsers", "jobSeekers"]
   },
   {
     "username": "richter",
     "firstName": "Henri",
     "lastName": "Richter",
-    "hash": "$2b$10$/RT4SuD7PSIa06WuGvSpM.2AaeoQBqTtg9wUR7ss0fW69ShjswlPS",
+    "hash": "$2b$10$Wd.SbfxeVA2xYlQdrQehKuNQv7YKPb5Ei93MMiM/abjurYH4ngyHi",
     "accessGroups": ["loggedInUsers", "companies"]
   }
 ]

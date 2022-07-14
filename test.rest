@@ -9,7 +9,7 @@ content-type: application/json
  
 {
     "username": "edward",
-    "password": "jdfljlasdk"
+    "password": "edward123"
 }
  
 ### MAINTAIN LOGIN

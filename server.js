@@ -77,7 +77,23 @@ app.post("/login", async (req, res) => {
     res.status(403).send("user not found");
   } else {
     const passwordIsCorrect = await bcrypt.compare(password, user.hash);
-    res.send(passwordIsCorrect);
+
+    if (passwordIsCorrect) {
+      const frontendUser = {
+        username,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        accessGroups: user.accessGroups,
+      };
+      jwt.sign({ user }, "secretkey", { expiresIn: "20s" }, (err, token) => {
+        res.json({
+          user: frontendUser,
+          token,
+        });
+      });
+    } else {
+      res.status(403).send("bad password");
+    }
   }
 });
 
