@@ -5,13 +5,6 @@ import mongoose from "mongoose";
 import cors from "cors";
 import jwt from "jsonwebtoken";
 
-const user = {
-  id: 1,
-  username: "marion",
-  firstName: "Marion",
-  lastName: "S",
-};
-
 dotenv.config();
 
 const MONGODB_URI =
